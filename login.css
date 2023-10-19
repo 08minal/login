@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Mohave', sans-serif;
+}
+
+label,input,a{
+  display: block;
+  margin-bottom: 10px;
+}
+
+#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form{
+  background-color:pink;
+  width: 25%;
+  border-radius: 5px;
+  padding: 20px;
+  color: cadetblue;
+}
+
+label{
+  font-size: 20px;
+}
+
+input{
+  width: 90%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: darkred;
+}
+
+#new{
+  text-align: center;
+}
+
+#but{
+  display: flex;
+  justify-content: space-between;
+}
+
+button{
+  width: 25%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: bisque;
+  color: darkmagenta;
+  font-size: 15px;
+}
+
+#cancel{
+  background-color: cadetblue;
+}
+
+
+#icon{
+  position: relative;
+}
+
+.fa-solid{
+  color: darkcyan;
+  position: absolute;
+  top: 20%;
+  left: 2%;
+}
+
+.fa-lock{
+  color: darkcyan;
+  position: absolute;
+  top: 20%;
+  left: 2%;
+}
+
+#pass{
+  position: relative;
+}
